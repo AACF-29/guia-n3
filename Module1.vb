@@ -181,10 +181,10 @@
                 Dim pagos As Double
                 Console.WriteLine("escriba la cantidad de dinero")
                 money = Console.ReadLine()
+                Console.WriteLine("escriba la tasa de interés")
+                intere = Console.ReadLine()
                 Console.WriteLine("escriba la cantidad de días")
                 cantM = Console.ReadLine()
-                Console.WriteLine("escriba la tase de interés")
-                intere = Console.ReadLine()
                 If (money > 0 And cantM > 0 And intere > 0) Then
                     pagos = (money * cantM) * (intere / 100)
                     Console.WriteLine("La cantidad de dinero a generar interes es {0}", money)
